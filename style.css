@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+section .card {
+  display: flex;
+  align-items: normal;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 85%;
+  max-width: 385px;
+  height: 520px;
+  padding: 20px 25px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 0px 1px hsl(0, 0%, 7%), 10px 10px 0px hsl(0, 0%, 7%);
+  transition: 0.2s;
+}
+section .card:hover {
+  box-shadow: 0px 0px 0px 1px hsl(0, 0%, 7%), 15px 15px 0px hsl(0, 0%, 7%);
+}
+section .card img:first-of-type {
+  border-radius: 10px;
+}
+section .card span {
+  display: block;
+  width: 85px;
+  padding: 5px 10px;
+  font-weight: 800;
+  border-radius: 5px;
+  background-color: hsl(47, 88%, 63%);
+}
+section .card p:nth-child(3) {
+  font-size: 14.5px;
+}
+section .card h1 {
+  transition: 0.2s;
+  cursor: pointer;
+}
+section .card h1:hover {
+  color: hsl(47, 88%, 63%);
+}
+section .card p:nth-child(5) {
+  color: hsl(0, 0%, 50%);
+  line-height: 25px;
+}
+section .card .card-author {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+section .card .card-author p {
+  font-weight: 800;
+}
+section .card .card-author img {
+  width: 35px;
+}/*# sourceMappingURL=style.css.map */
